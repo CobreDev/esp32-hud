@@ -1,0 +1,48 @@
+# XcodeGen spec. Regenerate the project with:  cd MacHUD && xcodegen
+name: MacHUD
+options:
+  bundleIdPrefix: local.machud
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+targets:
+  MacHUD:
+    type: application
+    platform: macOS
+    sources:
+      - path: MacHUD
+    info:
+      path: MacHUD/Info.plist
+      properties:
+        CFBundleDisplayName: MacHUD
+        CFBundleShortVersionString: "1.0.0"
+        CFBundleVersion: "1"
+        LSUIElement: true
+        LSApplicationCategoryType: public.app-category.utilities
+        LSMinimumSystemVersion: "$(MACOSX_DEPLOYMENT_TARGET)"
+        NSLocationUsageDescription: "MacHUD uses your approximate location to show local weather on your desk display."
+        NSLocationWhenInUseUsageDescription: "MacHUD uses your approximate location to show local weather on your desk display."
+        NSPhotoLibraryUsageDescription: "MacHUD reads the photo you use as your desktop wallpaper, to use a blurred copy as the dashboard background. It does not read anything else."
+        NSAppleEventsUsageDescription: "MacHUD reads the current track, playback position and artwork from Music to show them on your desk display."
+    entitlements:
+      path: MacHUD/MacHUD.entitlements
+      properties:
+        com.apple.security.automation.apple-events: true
+        com.apple.security.personal-information.location: true
+        com.apple.security.personal-information.photos-library: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: local.machud.MacHUD
+        PRODUCT_NAME: MacHUD
+        ENABLE_HARDENED_RUNTIME: YES
+        # Signed with a real developer certificate so macOS keeps permission grants across rebuilds
+        # (ad-hoc signing, "-", makes every rebuild look like a new app). Change to your own team.
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGN_IDENTITY: "Apple Development"
+        DEVELOPMENT_TEAM: 4BN7V65X8J
+        SWIFT_STRICT_CONCURRENCY: minimal
+        DEAD_CODE_STRIPPING: YES

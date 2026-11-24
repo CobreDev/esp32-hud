@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B787443A1CAB470ECC5C3B3 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A806A23F082C442D23E0F54 /* WeatherModel.swift */; };
+		0E586FF854131D42472C1026 /* Packet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7B9951793B05958AF2489 /* Packet.swift */; };
+		10AE7609FAED3A8B85251F0F /* NotificationWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CC8915F97655BADF678D08 /* NotificationWatcher.swift */; };
+		23B372FBE822A0CB67A46EDA /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF59EC82DA7CBB534EDD9D2 /* NotificationModel.swift */; };
+		259A305BD6BF812260CB8F89 /* AppleMusicSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183B6603F94B3114C574CEF0 /* AppleMusicSource.swift */; };
+		3D8007A5C99B2B1AE2B6FE62 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D737ABE70AEE71194823DA /* Screen.swift */; };
+		414C627042570239F55BA507 /* BatteryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432A9F8359434495707BB8A /* BatteryMonitor.swift */; };
+		5C9B158910CDB88114A27718 /* MacHUDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8066774ABD2051A381AF78FE /* MacHUDApp.swift */; };
+		6D8147882FD3BC7748E1F418 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90526EDB1AD45F6197E731BC /* AppState.swift */; };
+		7D1BD86302D783E5A22EDF5A /* NowPlayingSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8C79CFAA331CE57058C85 /* NowPlayingSource.swift */; };
+		8A2E5415D47F192F32DACC88 /* HUDRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247760A8A050DF2F36CFF1F /* HUDRenderer.swift */; };
+		8FA48D3DA5DC226E64081B5E /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8DD922C00E572999AC5D82 /* PopoverView.swift */; };
+		9B656405CF8EFFC361010DA6 /* WallpaperProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB831F7816DD60C0365414 /* WallpaperProvider.swift */; };
+		B5C4872CD20C3D4FA50B61B8 /* SerialLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6864ABF43337DB301D76B0 /* SerialLink.swift */; };
+		C4D75540284116A0D78237B9 /* AppIconResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56101DE5FAE973CCB5A4844F /* AppIconResolver.swift */; };
+		D432199615B06C4135FB046A /* SerialPortScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93920784CE9CC06B01543C43 /* SerialPortScanner.swift */; };
+		DF04D006F4B1F3C2EE735048 /* ArtworkLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D03B04F18EB9EC796FBF0A /* ArtworkLookup.swift */; };
+		F812FDEC25E0E94BC4A941E1 /* WeatherProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D522F622D09B8B4A1077F34 /* WeatherProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C8DD922C00E572999AC5D82 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		17D0B71C5A6075D7AE93E812 /* MacHUD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacHUD.entitlements; sourceTree = "<group>"; };
+		183B6603F94B3114C574CEF0 /* AppleMusicSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicSource.swift; sourceTree = "<group>"; };
+		1A806A23F082C442D23E0F54 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		1AF59EC82DA7CBB534EDD9D2 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		356FA5D2094038065A2B39CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		47D737ABE70AEE71194823DA /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		56101DE5FAE973CCB5A4844F /* AppIconResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconResolver.swift; sourceTree = "<group>"; };
+		5D522F622D09B8B4A1077F34 /* WeatherProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherProvider.swift; sourceTree = "<group>"; };
+		748B6F824990657A0DF51F6D /* MacHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8066774ABD2051A381AF78FE /* MacHUDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacHUDApp.swift; sourceTree = "<group>"; };
+		90526EDB1AD45F6197E731BC /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		93920784CE9CC06B01543C43 /* SerialPortScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialPortScanner.swift; sourceTree = "<group>"; };
+		9CE7B9951793B05958AF2489 /* Packet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packet.swift; sourceTree = "<group>"; };
+		A247760A8A050DF2F36CFF1F /* HUDRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDRenderer.swift; sourceTree = "<group>"; };
+		C432A9F8359434495707BB8A /* BatteryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryMonitor.swift; sourceTree = "<group>"; };
+		C6CC8915F97655BADF678D08 /* NotificationWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationWatcher.swift; sourceTree = "<group>"; };
+		C9D03B04F18EB9EC796FBF0A /* ArtworkLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkLookup.swift; sourceTree = "<group>"; };
+		DA6864ABF43337DB301D76B0 /* SerialLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialLink.swift; sourceTree = "<group>"; };
+		EDC8C79CFAA331CE57058C85 /* NowPlayingSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingSource.swift; sourceTree = "<group>"; };
+		F4DB831F7816DD60C0365414 /* WallpaperProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1954DF5DEAA3A043285FAF6D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0C8DD922C00E572999AC5D82 /* PopoverView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1E595DE3F2F47EAEC1B6DCE8 = {
+			isa = PBXGroup;
+			children = (
+				D40A65119A32C2F3D3C61DC4 /* MacHUD */,
+				D6E87357B3C4C4B6E9DEE0B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2160E4C70B0A24FA6F78BA6F /* Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB831F7816DD60C0365414 /* WallpaperProvider.swift */,
+			);
+			path = Wallpaper;
+			sourceTree = "<group>";
+		};
+		32FC20F03F851DC179DDB6CD /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				56101DE5FAE973CCB5A4844F /* AppIconResolver.swift */,
+				1AF59EC82DA7CBB534EDD9D2 /* NotificationModel.swift */,
+				C6CC8915F97655BADF678D08 /* NotificationWatcher.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		425ED94AA354F87ED21F4B3D /* System */ = {
+			isa = PBXGroup;
+			children = (
+				C432A9F8359434495707BB8A /* BatteryMonitor.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		679848A24B8632E47ED76BF3 /* NowPlaying */ = {
+			isa = PBXGroup;
+			children = (
+				183B6603F94B3114C574CEF0 /* AppleMusicSource.swift */,
+				C9D03B04F18EB9EC796FBF0A /* ArtworkLookup.swift */,
+				EDC8C79CFAA331CE57058C85 /* NowPlayingSource.swift */,
+			);
+			path = NowPlaying;
+			sourceTree = "<group>";
+		};
+		74A9B2ADE0C42BF5F73F4011 /* Serial */ = {
+			isa = PBXGroup;
+			children = (
+				9CE7B9951793B05958AF2489 /* Packet.swift */,
+				DA6864ABF43337DB301D76B0 /* SerialLink.swift */,
+				93920784CE9CC06B01543C43 /* SerialPortScanner.swift */,
+			);
+			path = Serial;
+			sourceTree = "<group>";
+		};
+		D40A65119A32C2F3D3C61DC4 /* MacHUD */ = {
+			isa = PBXGroup;
+			children = (
+				356FA5D2094038065A2B39CF /* Info.plist */,
+				17D0B71C5A6075D7AE93E812 /* MacHUD.entitlements */,
+				F7890260A5B14E5C2E93A314 /* App */,
+				32FC20F03F851DC179DDB6CD /* Notifications */,
+				679848A24B8632E47ED76BF3 /* NowPlaying */,
+				F23C942683C83A6255A08E08 /* Rendering */,
+				74A9B2ADE0C42BF5F73F4011 /* Serial */,
+				425ED94AA354F87ED21F4B3D /* System */,
+				1954DF5DEAA3A043285FAF6D /* UI */,
+				2160E4C70B0A24FA6F78BA6F /* Wallpaper */,
+				D7CA4C04E3F7D9809E625863 /* Weather */,
+			);
+			path = MacHUD;
+			sourceTree = "<group>";
+		};
+		D6E87357B3C4C4B6E9DEE0B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				748B6F824990657A0DF51F6D /* MacHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7CA4C04E3F7D9809E625863 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				1A806A23F082C442D23E0F54 /* WeatherModel.swift */,
+				5D522F622D09B8B4A1077F34 /* WeatherProvider.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		F23C942683C83A6255A08E08 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				A247760A8A050DF2F36CFF1F /* HUDRenderer.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		F7890260A5B14E5C2E93A314 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				90526EDB1AD45F6197E731BC /* AppState.swift */,
+				8066774ABD2051A381AF78FE /* MacHUDApp.swift */,
+				47D737ABE70AEE71194823DA /* Screen.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38DDD9376E0018241EF497F0 /* MacHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FF8C0B6DCC83EFDC117F38 /* Build configuration list for PBXNativeTarget "MacHUD" */;
+			buildPhases = (
+				2596A0BFEBEB8C5038BC092E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacHUD;
+			packageProductDependencies = (
+			);
+			productName = MacHUD;
+			productReference = 748B6F824990657A0DF51F6D /* MacHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2B3D0F701CCD01B8F9539D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					38DDD9376E0018241EF497F0 = {
+						DevelopmentTeam = 4BN7V65X8J;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 55017CC673FF8B7D9B77F74E /* Build configuration list for PBXProject "MacHUD" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1E595DE3F2F47EAEC1B6DCE8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6E87357B3C4C4B6E9DEE0B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38DDD9376E0018241EF497F0 /* MacHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2596A0BFEBEB8C5038BC092E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D75540284116A0D78237B9 /* AppIconResolver.swift in Sources */,
+				6D8147882FD3BC7748E1F418 /* AppState.swift in Sources */,
+				259A305BD6BF812260CB8F89 /* AppleMusicSource.swift in Sources */,
+				DF04D006F4B1F3C2EE735048 /* ArtworkLookup.swift in Sources */,
+				414C627042570239F55BA507 /* BatteryMonitor.swift in Sources */,
+				8A2E5415D47F192F32DACC88 /* HUDRenderer.swift in Sources */,
+				5C9B158910CDB88114A27718 /* MacHUDApp.swift in Sources */,
+				23B372FBE822A0CB67A46EDA /* NotificationModel.swift in Sources */,
+				10AE7609FAED3A8B85251F0F /* NotificationWatcher.swift in Sources */,
+				7D1BD86302D783E5A22EDF5A /* NowPlayingSource.swift in Sources */,
+				0E586FF854131D42472C1026 /* Packet.swift in Sources */,
+				8FA48D3DA5DC226E64081B5E /* PopoverView.swift in Sources */,
+				3D8007A5C99B2B1AE2B6FE62 /* Screen.swift in Sources */,
+				B5C4872CD20C3D4FA50B61B8 /* SerialLink.swift in Sources */,
+				D432199615B06C4135FB046A /* SerialPortScanner.swift in Sources */,
+				9B656405CF8EFFC361010DA6 /* WallpaperProvider.swift in Sources */,
+				0B787443A1CAB470ECC5C3B3 /* WeatherModel.swift in Sources */,
+				F812FDEC25E0E94BC4A941E1 /* WeatherProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6AB6E0E2A3B3A376972EE083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6C2C03A6D8473538F485F5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacHUD/MacHUD.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4BN7V65X8J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MacHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.machud.MacHUD;
+				PRODUCT_NAME = MacHUD;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+			};
+			name = Debug;
+		};
+		B83B387B6C044631DA68220E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D9E54E47D3EDBA58DA8043CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacHUD/MacHUD.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4BN7V65X8J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MacHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.machud.MacHUD;
+				PRODUCT_NAME = MacHUD;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42FF8C0B6DCC83EFDC117F38 /* Build configuration list for PBXNativeTarget "MacHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2C03A6D8473538F485F5EA /* Debug */,
+				D9E54E47D3EDBA58DA8043CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		55017CC673FF8B7D9B77F74E /* Build configuration list for PBXProject "MacHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83B387B6C044631DA68220E /* Debug */,
+				6AB6E0E2A3B3A376972EE083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2B3D0F701CCD01B8F9539D2 /* Project object */;
+}
